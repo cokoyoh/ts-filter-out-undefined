@@ -4,7 +4,7 @@
  */
 var maybeNumbers = [1, 2, undefined, 3, 4];
 var isNotUndefined = function (element) {
-    return element !== undefined && element;
+    return element !== undefined;
 };
 var numbers = maybeNumbers.filter(function (element) { return isNotUndefined(element); });
 console.log(numbers);
